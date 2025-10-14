@@ -1,0 +1,121 @@
+/* Color Palette
+	#0d37f8 - color 1
+    #031181 - color 2
+    #5c87b8 - color 3
+    #000000 - color 4
+*/
+
+/* Global styles 
+------------------------------------*/
+.suse-mono {
+  font-family: "SUSE Mono", sans-serif;
+  font-optical-sizing: auto;
+    font-weight: 500;
+  font-style: normal;
+}
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+background: #5c87b8;
+}
+
+h1{font-size: 200%;
+font-family: 'Archivo Black', sans-serif;
+margin-top: 0;
+}
+
+h2{font-size:150%;
+font-family: 'SUSE Mono', monospace;
+margin-top: 0;
+}
+
+h3{font-size:115%;
+font-family: "SUSE Mono", sans-serif;
+margin-top: 0;
+}
+
+p{font-size: 90%;
+font-family: "SUSE Mono", sans-serif;
+}
+
+.profile-image{
+position: relative;
+width:300px;
+height: 300px;
+border-radius: 50%;
+margin-right: 10px;
+border: 5px solid #031181;
+margin-left: 10px;
+margin-top: 0px;
+}
+
+.content-wrap{
+max-width: 950px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.contact-info{
+max-width: 950px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.contact-info a{
+padding: 10px; 
+display: inline-block;
+}
+
+/* Header & Footer 
+------------------------------------*/
+#CurrectWork{
+position: relative;
+margin-left: 10px;
+background-color:#000000;
+padding:25px;
+color: #0df88e;
+border: 2px solid #0df88e;
+border-radius: 25px;
+}
+
+#FooterLinks{
+position: relative;
+margin-left: 10px;
+background-color:#000000;
+padding:25px;
+color: #730df8;
+border: 2px solid #730df8;
+border-radius: 25px;
+text-align: center;
+}
+
+/* Work Experience
+------------------------------------*/
+#WorkExperience{
+position: relative;
+margin-left: 10px;
+background-color:#000000;
+padding:25px;
+color: #0d37f8;
+border: 2px solid #0d37f8;
+border-radius: 25px;
+}
+
+
+/* Education
+------------------------------------*/
+#Education{
+position: relative;
+margin-left: 10px;
+background-color:#000000;
+padding:25px;
+color: #0dd5f8;
+border: 2px solid #0dd5f8;
+border-radius: 25px;
+}
