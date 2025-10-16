@@ -20,9 +20,13 @@
   font-style: normal;
 }
 
+html{
+  background: #5c87b8
+}
 
 body {
-background: #5c87b8;
+margin:0;
+box-sizing:border-box;
 }
 
 h1{font-size: 200%;
@@ -42,6 +46,19 @@ margin-top: 0;
 
 p{font-size: 90%;
 font-family: "SUSE Mono", sans-serif;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
 }
 
 .profile-image{
